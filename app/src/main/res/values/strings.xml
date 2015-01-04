@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Name of app-->
+    <string name="app_name">Sunshine</string>
+
+    <string name="forecast">Today - Sunny 88/63</string>
+
+    <!--Label for action button - Settings-->
+    <string name="action_settings">Settings</string>
+    <!--Label for action button - Refresh-->
+    <string name="action_refresh" translatable="false">Refresh</string>
+    <!--Label for action button - Map-->
+    <string name="action_map">Map Location</string>
+    <string name="action_share">Share</string>
+
+    <!--Title of Activities - Detail, Settings-->
+    <string name="title_activity_detail">Detail Activity</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!--EditText label for location preference-->
+    <string name="pref_location_label">Location</string>
+    <!--Key name for storing location in SharedPreference-->
+    <string name="pref_location_key" translatable="false">location</string>
+    <!--Default postcode for location preference-->
+    <string name="pref_location_default" translatable="false">94043</string>
+
+    <!-- Label for Units preference -->
+    <string name="pref_units_label">Units</string>
+    <!--Key name for storing units in SharedPreference-->
+    <string name="pref_units_key" translatable="false">units</string>
+    <!--Default value for units preference/ also just Metric string-->
+    <string name="pref_units_metric" translatable="false">Metric</string>
+    <!-- Imperial string-->
+    <string name="pref_units_imperial">Imperial</string>
+
+
+    <string name="hello_world">Hello World!</string>
+
+</resources>
