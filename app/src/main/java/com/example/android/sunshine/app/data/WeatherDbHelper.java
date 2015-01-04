@@ -47,7 +47,7 @@ public class WeatherDbHelper extends SQLiteOpenHelper {
 
         /* TODO Uncomment for
          4a - Create a Database for SQLiteOpenHelper
-         https://www.udacity.com/course/viewer#!/c-ud853/l-1639338560/m-1633698598
+         https://www.udacity.com/course/viewer#!/c-ud853/l-1639338560/m-1633698598*/
         final String SQL_CREATE_WEATHER_TABLE = "CREATE TABLE " + WeatherEntry.TABLE_NAME + " (" +
                 // Why AutoIncrement here, and not above?
                 // Unique keys will be auto-generated in either case.  But for weather
@@ -81,7 +81,7 @@ public class WeatherDbHelper extends SQLiteOpenHelper {
 
         sqLiteDatabase.execSQL(SQL_CREATE_LOCATION_TABLE);
         sqLiteDatabase.execSQL(SQL_CREATE_WEATHER_TABLE);
-        */
+
     }
 
     @Override
